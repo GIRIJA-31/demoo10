@@ -1,4 +1,4 @@
-public class webpagetest {
+
     import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -6,7 +6,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertTrue;
-    public class WebPageTest
+    public class webpagetest
     {
         private static WebDriver driver;
         @BeforeTest
@@ -15,7 +15,7 @@ import static org.testng.Assert.assertTrue;
             driver = new ChromeDriver();
             driver.manage().window().maximize();
             Thread.sleep(2000);
-            driver.get("https://sarvarbegum-coder.github.io/LAB_1/");
+            driver.get("https://girija-31.github.io/demoo10/");
         }
         @Test
         public void titleValidationTest()
@@ -32,4 +32,4 @@ import static org.testng.Assert.assertTrue;
             driver.quit();
         }
     }
-}
+
